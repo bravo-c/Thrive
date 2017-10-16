@@ -8,6 +8,9 @@
 #|                                       |#
 #|---------------------------------------|#
 
+(require "universe.rkt")
+(require "2htdp/image.rkt")
+
 ; a World is a (make-world Number Player [List-of Enemy] [List-of Food])
 (define-struct world [time player loe lof])
 
