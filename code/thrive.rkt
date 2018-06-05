@@ -8,6 +8,8 @@
 #|                                       |#
 #|---------------------------------------|#
 
+#lang htdp/isl
+
 (require "universe.rkt")
 (require "2htdp/image.rkt")
 
